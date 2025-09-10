@@ -1,4 +1,4 @@
-# ICollectionManager (Интерфейс менеджера коллекций)
+# Интерфейс менеджера коллекций (ICollectionManager) 
 
 Интерфейс `ICollectionManager` используется для управления экземплярами `Collection` в источниках данных.
 
