@@ -2,7 +2,7 @@
 
 ## Обзор
 
-После обработки запроса на операцию с ресурсом middleware [`resourceManager.middleware()`](./resource-manager#middleware), важные параметры запроса сохраняются в `ctx.action` для использования последующими middleware.
+После обработки запроса на операцию с ресурсом промежуточного программного обеспечения [`resourceManager.middleware()`](./resource-manager#middleware), важные параметры запроса сохраняются в `ctx.action` для использования последующими ПО.
 
 ## API
 
@@ -139,7 +139,7 @@ export interface MergeStrategies {
 };
 ```
 
-##### ActionParams
+#### ActionParams
 
 | Свойство       | Тип         | Описание                                                                 |
 | -------------- | ----------- | ----------------------------------------------------------------------- |
@@ -156,7 +156,7 @@ export interface MergeStrategies {
 | `values`       | `any`       | Тело запроса                                                           |
 | `[key: string]`| `any`       | Другие расширенные конфигурации                                        |
 
-##### MergeStrategies
+#### MergeStrategies
 
 Предопределенные стратегии слияния или пользовательские функции слияния.
 
