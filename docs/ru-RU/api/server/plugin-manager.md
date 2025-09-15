@@ -1,4 +1,4 @@
-# Менеджер плагинов (PluginManager)
+# Менеджер плагинов 
 
 `PluginManager` - это менеджер плагинов для NocoBase.
 

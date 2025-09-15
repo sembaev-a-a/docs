@@ -1,12 +1,6 @@
 # Печать по шаблону
 
 <PluginInfo commercial="true" name="action-template-print"></PluginInfo>
-<style>
-.markdown h4 {
-    font-size: 18px;
-    font-weight: 500;
-}
-</style>
 
 ## Введение
 

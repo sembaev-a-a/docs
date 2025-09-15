@@ -1,20 +1,20 @@
-# DataSource (абстрактный класс)
+# Источники данных
 
 Абстрактный класс `DataSource` представляет собой источник данных, которым может быть база данных, API и т.д.
 
 ## Члены класса
 
-### collectionManager
+### Менеджер коллекций (CollectionManager)
 
 Экземпляр CollectionManager для источника данных, должен реализовывать интерфейс [`ICollectionManager`](/api/data-source-manager/i-collection-manager).
 
-### resourceManager
+### Менеджер ресурсов (ResourceManager)
 
 Экземпляр resourceManager для источника данных. См.: [`resourceManager`](/api/resourcer/resource-manager)
 
-### acl
+### Усправление доступом (ACL)
 
-Экземпляр ACL (управление доступом) для источника данных. См.: [`ACL`](/api/acl/acl)
+Экземпляр ACL для источника данных. См.: [`ACL`](/api/acl/acl)
 
 ## API
 
