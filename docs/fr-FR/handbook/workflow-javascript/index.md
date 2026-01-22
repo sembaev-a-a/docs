@@ -69,10 +69,10 @@ Then add the package's relative (or absolute) path based on the application's CW
 WORKFLOW_SCRIPT_MODULES=./storage/node_modules/exceljs
 ```
 
-You can then use the `exceljs` package in your script:
+You can then use the `exceljs` package in your script (the `require` name must exactly match the one defined in the environment variable):
 
 ```js
-const ExcelJS = require('exceljs');
+const ExcelJS = require('./storage/node_modules/exceljs');
 // ...
 ```
 
